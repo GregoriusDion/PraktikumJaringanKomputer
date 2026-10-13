@@ -1,0 +1,108 @@
+Frame 537: Packet, 1304 bytes on wire (10432 bits), 1304 bytes captured (10432 bits) on interface \Device\NPF_{2BAC293D-A30B-4AD7-A903-6F13F5A2B17E}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{2BAC293D-A30B-4AD7-A903-6F13F5A2B17E})
+        Interface name: \Device\NPF_{2BAC293D-A30B-4AD7-A903-6F13F5A2B17E}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 16:05:18.524030400 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 09:05:18.524030400 UTC
+    Epoch Arrival Time: 1791882318.524030400
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 29.502400 milliseconds]
+    [Time delta from previous displayed frame: 29.502400 milliseconds]
+    [Time since reference or first frame: 1.786963900 seconds]
+    Frame Number: 537
+    Frame Length: 1304 bytes (10432 bits)
+    Capture Length: 1304 bytes (10432 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: Bad TCP]
+    [Coloring Rule String: tcp.analysis.flags && !tcp.analysis.window_update && !tcp.analysis.keep_alive && !tcp.analysis.keep_alive_ack]
+Ethernet II, Src: MiaoMingInte_50:b2:3e (38:7b:01:50:b2:3e), Dst: VMware_b5:55:03 (00:50:56:b5:55:03)
+    Destination: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: MiaoMingInte_50:b2:3e (38:7b:01:50:b2:3e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 199]
+Internet Protocol Version 4, Src: 10.252.133.182, Dst: 202.9.85.176
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1290
+    Identification: 0x8cbf (36031)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xb8c2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.133.182
+    Destination Address: 202.9.85.176
+    [Stream index: 133]
+Transmission Control Protocol, Src Port: 58648, Dst Port: 443, Seq: 1072, Ack: 1, Len: 1250
+    Source Port: 58648
+    Destination Port: 443
+    [Stream index: 4]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 1250]
+    Sequence Number: 1072    (relative sequence number)
+    Sequence Number (raw): 4287058441
+    [Next Sequence Number: 2322    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3698444450
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 255
+    [Calculated window size: 65280]
+    [Window size scaling factor: 256]
+    Checksum: 0xb22b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 40.474700 milliseconds]
+        [Time since previous frame in this TCP stream: 29.502400 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 10.578000 milliseconds]
+        [Bytes in flight: 2321]
+        [Bytes sent since last PSH flag: 1250]
+        [TCP Analysis Flags]
+            [Expert Info (Note/Sequence): This frame is a (suspected) retransmission]
+                [This frame is a (suspected) retransmission]
+                [Severity level: Note]
+                [Group: Sequence]
+            [The RTO for this segment was: 29.502400 milliseconds]
+            [RTO based on delta from frame: 536]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1250 bytes)
+    [Reassembled PDU in frame: 536]
+    TCP segment data (1250 bytes)
